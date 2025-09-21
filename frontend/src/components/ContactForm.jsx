@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://contact-book-vh02.onrender.com/api";
 const emailRe = /^\S+@\S+\.\S+$/;
 const phoneRe = /^\d{10}$/;
 
