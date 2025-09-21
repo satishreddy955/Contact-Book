@@ -5,7 +5,7 @@ import Pagination from "./components/Pagination";
 import axios from "axios";
 
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://contact-book-vh02.onrender.com/api";
 
 export default function App() {
   const [contacts, setContacts] = useState([]);
